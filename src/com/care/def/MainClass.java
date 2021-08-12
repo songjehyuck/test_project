@@ -2,9 +2,12 @@ package com.care.def;
 
 import java.util.Scanner;
 
+import com.care.tv_jehyuck.TV_jehyuck;
+
 public class MainClass {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		TV_jehyuck tv_jehyuck=new TV_jehyuck();
 		int num;
 		System.out.println("---가전제품---");
 		while(true) {
@@ -15,7 +18,7 @@ public class MainClass {
 			num=input.nextInt();
 			switch(num) {
 			case 1:
-				TV_jehyuck.display();
+				tv_jehyuck.display();
 				System.out.println("냉장고");
 				break;
 			case 2:
