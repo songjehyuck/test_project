@@ -15,6 +15,7 @@ public class MainClass {
 			num=input.nextInt();
 			switch(num) {
 			case 1:
+				TV_jehyuck.display();
 				System.out.println("≥√¿Â∞Ì");
 				break;
 			case 2:
